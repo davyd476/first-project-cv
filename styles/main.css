@@ -34,8 +34,11 @@ a {
 
     background-color: rgb(199, 157, 238);
 
+    border-radius: 6px;
     text-decoration: none;
     color: rgb(44, 55, 51);
+
+    transition: 250ms background-color linear, 250ms color linear;
 }
 
 a:hover {
